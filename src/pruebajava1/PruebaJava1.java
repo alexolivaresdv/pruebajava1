@@ -14,11 +14,21 @@ package pruebajava1;
  */
 public class PruebaJava1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+  
+    public static void main(String[] args) 
+    {
+        
+        int base;
+        int altura;
+        String name;
+        
+        base=7;
+       altura=6;
+       name="El area del rectangulo es mts2";
+        
+      System.out.println("El area del rectangulo:"+(base*altura)+"mts2");
+        
+        
     }
     
 }
